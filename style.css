@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+nav {
+    background-color: #D4AF37;
+}
+
+main {
+    background-color: #31302d;
+}
