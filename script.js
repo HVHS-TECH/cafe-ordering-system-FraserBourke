@@ -1,11 +1,13 @@
 console.log("Hello world!")
+const OUTPUT = document .getElementById("spaceForJavaScriptOutput");
+function start() {
 
 //variables
 let Username = "Fraser";
 let money = 50;
 halfMoney = money / 2;
 
-const OUTPUT = document .getElementById("spaceForJavaScriptOutput");
+
 
 const CHOOSE_FIELD = document.getElementById("CHOOSE_FILED");
 _choose_field = Number(CHOOSE_FIELD.value);
@@ -22,3 +24,4 @@ let classArray = ["Michael Jackson", "The Rock", "Gordon Ramsay", "David Attenbo
 let choice = CHOOSE_FIELD.value;
 
 OUTPUT.innerHTML = "You chose: " + classArray[choice] + "<br>";
+}
