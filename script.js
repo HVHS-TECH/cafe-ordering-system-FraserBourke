@@ -7,6 +7,10 @@ halfMoney = money / 2;
 
 const OUTPUT = document .getElementById("spaceForJavaScriptOutput");
 
+const CHOOSE_FIELD = document.getElementById("CHOOSE_FILED");
+_choose_field = Number(CHOOSE_FIELD.value);
+
+
 
 
 OUTPUT.innerHTML += ("<p>you have " + money + " dollars </p>")
