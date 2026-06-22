@@ -15,6 +15,7 @@ _choose_field = Number(CHOOSE_FIELD.value);
 
 
 
+
 OUTPUT.innerHTML += ("<p>you have " + money + " dollars </p>")
 OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + " dollars</p>")
 OUTPUT.innerHTML += (" <p>Then you get $3, now you have " + (halfMoney + 3) + " dollars </p>")
