@@ -9,13 +9,16 @@
 
 nav {
     background-color: #D4AF37;
+    padding: 0.5cm;
 }
 
 main {
-    background-color: #F8F4E3;
+    background-color: #424C55;
+     padding: 0.5cm;
 }
 
 footer {
      background-color: #424C55;
      -webkit-text-fill-color: #F8F4E3;
+      padding: 0.5cm;
 }
