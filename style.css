@@ -15,10 +15,11 @@ nav {
 main {
     background-color: #424C55;
      padding: 0.5cm;
+     -webkit-text-fill-color: #F8F4E3;
 }
 
 footer {
-     background-color: #424C55;
-     -webkit-text-fill-color: #F8F4E3;
+     background-color: #F8F4E3;
+     -webkit-text-fill-color: #424C55;
       padding: 0.5cm;
 }
