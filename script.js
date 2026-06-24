@@ -1,5 +1,5 @@
 console.log("Hello world!")
-const OUTPUT = document .getElementById("spaceForJavaScriptOutput");
+const OUTPUT = document .getElementById("celebrity");
 function start() {
 
 //variables
