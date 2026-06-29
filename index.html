@@ -36,19 +36,27 @@
 
 <h1>Order Here</h1>
 
-<p>Enter your name</p>
-<input type="text">
-<input type="submit" value="submit" onCLick="showChoice()">
+<form action="#" id="orderForm" novalidate onsubmit="return false;">
 
-<p>Enter your money</p>
-<input type="text">
-<input type="submit" value="submit" onCLick="showChoice()">
 
-<p>Enter your order</p>
-<input type="text">
-<input type="submit" value="submit" onCLick="showChoice()">
-<!--Output will go here -->
-<div id="celebrity">
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <br><br>
+  <label for="money">Money:</label>
+  <input type="number" id="money" name="money" required>
+  <br><br>
+  <label for="order">Order:</label>
+  <input type="text" id="order" name="order" required>
+  <br><br>
+
+<button
+  type="button"
+  onClick="addItem()"
+  class ="submit-button">
+  Submit
+</button>
+
 
    
 
