@@ -5,6 +5,7 @@ function start() {
 //variables
 let Username = "Fraser";
 let money = 50;
+
 halfMoney = money / 2;
 
 
@@ -12,9 +13,9 @@ halfMoney = money / 2;
 const CHOOSE_FIELD = document.getElementById("CHOOSE_FIELD");
 _choose_field = Number(CHOOSE_FIELD.value);
 
+let price = 0; 
 
-
-
+if ()
 
 OUTPUT.innerHTML += ("<p>you have " + money + " dollars </p>")
 OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + " dollars</p>")
