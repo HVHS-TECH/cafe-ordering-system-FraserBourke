@@ -15,7 +15,7 @@ _choose_field = Number(CHOOSE_FIELD.value);
 
 let price = 0; 
 
-if ()
+
 
 OUTPUT.innerHTML += ("<p>you have " + money + " dollars </p>")
 OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + " dollars</p>")
