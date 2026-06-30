@@ -1,4 +1,5 @@
 console.log("Hello world!")
+
 const OUTPUT = document .getElementById("celebrity");
 function start() {
 
