@@ -17,6 +17,18 @@ _choose_field = Number(CHOOSE_FIELD.value);
 let price = 0; 
 
 
+function addItem() {
+
+    const form = document.getElementById("orderForm");
+
+    let name = document.getElementById("nameInput").value;
+    let item = document.getElementById("itemInput").value;
+    let moneySpent = document.getElementById("moneyInput").value;
+
+    OUTPUT.innerHTML =
+    "<p>Order added successfully!</p>"
+}
+
 
 OUTPUT.innerHTML += ("<p>you have " + money + " dollars </p>")
 OUTPUT.innerHTML += ("<p>You spend half of your money, now you have " + halfMoney + " dollars</p>")
