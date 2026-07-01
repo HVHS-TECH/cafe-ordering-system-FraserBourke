@@ -11,8 +11,7 @@ halfMoney = money / 2;
 
 
 
-const CHOOSE_FIELD = document.getElementById("CHOOSE_FIELD");
-_choose_field = Number(CHOOSE_FIELD.value);
+
 
 let price = 0; 
 
