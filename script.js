@@ -1,6 +1,6 @@
-console.log("Hello world!")
+console.log("Running Hello world!")
 
-const OUTPUT = document .getElementById("celebrity");
+const OUTPUT = document.getElementById("celebrity");
 function start() {
 
 //variables
