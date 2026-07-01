@@ -24,6 +24,9 @@ function addItem() {
     let item = document.getElementById("itemInput").value;
     let moneySpent = document.getElementById("moneyInput").value;
 
+    function addItem() {
+        console.log(Added to order:);
+
     OUTPUT.innerHTML =
     "<p>Order added successfully!</p>"
 }
