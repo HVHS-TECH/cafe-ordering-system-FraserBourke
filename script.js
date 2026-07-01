@@ -37,5 +37,3 @@ let classArray = ["Michael Jackson", "The Rock", "Gordon Ramsay", "David Attenbo
 
 let choice = CHOOSE_FIELD.value;
 
-OUTPUT.innerHTML = "You chose: " + classArray[choice] + "<br>";
-}
