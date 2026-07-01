@@ -36,4 +36,4 @@ OUTPUT.innerHTML += (" <p>Then you get $3, now you have " + (halfMoney + 3) + " 
 let classArray = ["Michael Jackson", "The Rock", "Gordon Ramsay", "David Attenborough"];
 
 let choice = CHOOSE_FIELD.value;
-
+}
