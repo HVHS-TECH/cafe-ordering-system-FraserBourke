@@ -23,7 +23,7 @@ function addItem() {
     let name = document.getElementById("nameInput").value;
     let item = document.getElementById("itemInput").value;
     let moneySpent = document.getElementById("moneyInput").value;
-
+}
     function addItem() {
         console.log("Added to order:" + name + " " + item + " " + moneySpent);
 
@@ -39,4 +39,4 @@ OUTPUT.innerHTML += (" <p>Then you get $3, now you have " + (halfMoney + 3) + " 
 let classArray = ["Michael Jackson", "The Rock", "Gordon Ramsay", "David Attenborough"];
 
 let choice = CHOOSE_FIELD.value;
-}
+
