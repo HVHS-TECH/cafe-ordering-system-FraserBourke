@@ -1,7 +1,7 @@
 console.log("Running Hello world!")
 
 const OUTPUT = document.getElementById("celebrity");
-function start() {
+function start() {}
 
 //variables
 let Username = "Fraser";
@@ -33,4 +33,4 @@ function addItem() {
 
 
 
-}
+
