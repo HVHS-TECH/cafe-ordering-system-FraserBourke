@@ -16,7 +16,7 @@ halfMoney = money / 2;
 let price = 0; 
 
 
-function addItem() {
+function addItem() {}
 
     const form = document.getElementById("orderForm");
 
