@@ -4,10 +4,6 @@ const OUTPUT = document.getElementById("celebrity");
 function start() {}
 
 //variables
-let Username = "Fraser";
-let money = 50;
-
-halfMoney = money / 2;
 
 
 
