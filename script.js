@@ -16,7 +16,7 @@ halfMoney = money / 2;
 let price = 0; 
 
 
-function addItem() {}
+function addItem() {
 
     const form = document.getElementById("orderForm");
 
@@ -24,7 +24,6 @@ function addItem() {}
     let item = document.getElementById("itemInput").value;
     let moneySpent = document.getElementById("moneyInput").value;
 
-    function addItem() {
         console.log("Added to order:" + name + " " + item + " " + moneySpent);
 
     OUTPUT.innerHTML =
