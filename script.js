@@ -31,7 +31,7 @@ function addItem() {
 
 
     if (moneySpent < 150) {
-        OUTPUT.innerHTML += "<p>You don't have enough money</p>"
+        OUTPUT.innerHTML += "<p>You don't have enough money</p>";
     }
 }
 
