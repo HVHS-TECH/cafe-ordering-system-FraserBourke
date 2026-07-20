@@ -30,7 +30,7 @@ function addItem() {
 
 
 
-    if (moneySpent) < 150
+    if (moneySpent < 150)
 }
 
 
