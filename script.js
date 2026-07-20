@@ -16,10 +16,7 @@ function addItem() {
     let item = document.getElementById("itemInput").value;
     let moneySpent = document.getElementById("moneyInput").value;
 
-    OUTPUT.innerHTML +=
-    "<p>Order added successfully!</p>";
-
-    OUTPUT.innerHTML += " Added to order: "  +  name  + "  has ordered,  " + item + " for $"   + moneySpent 
+    
 
 
 
@@ -29,6 +26,12 @@ function addItem() {
 
     } else {
         
+    OUTPUT.innerHTML +=
+    "<p>Order added successfully!</p>";
+
+    OUTPUT.innerHTML += " Added to order: "  +  name  + "  has ordered,  " + item + " for $"   + moneySpent 
+
+
     }
 
 
