@@ -20,7 +20,7 @@ function addItem() {
     let item = document.getElementById("itemInput").value;
     let moneySpent = document.getElementById("moneyInput").value;
 
-        console.log("Added to order:" + name + " " + item + " " + moneySpent);
+        OUTPUT.innerHTML = "Added to order:" + name + " " + item + " " + moneySpent "
 
     OUTPUT.innerHTML =
     "<p>Order added successfully!</p>"
