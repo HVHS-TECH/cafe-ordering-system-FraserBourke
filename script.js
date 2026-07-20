@@ -23,10 +23,10 @@ function addItem() {
     let item = document.getElementById("itemInput").value;
     let moneySpent = document.getElementById("moneyInput").value;
 
-    OUTPUT.innerHTML =
+    OUTPUT.innerHTML +=
     "<p>Order added successfully!</p>";
 
-    OUTPUT.innerHTML = " Added to order: "  +  name  + "  has ordered,  " + item + " for $"   + moneySpent
+    OUTPUT.innerHTML += "<p> Added to order: "  +  name  + "  has ordered,  " + item + " for $"   + moneySpent "</p>";
 
 
 
