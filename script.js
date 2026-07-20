@@ -8,13 +8,6 @@ function start() {}
 
 
 
-
-
-
-
-let price = 0; 
-
-
 function addItem() {
 
     const form = document.getElementById("orderForm");
