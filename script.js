@@ -9,6 +9,9 @@ function start() {}
 
 
 
+
+
+
 let price = 0; 
 
 
@@ -24,6 +27,10 @@ function addItem() {
     "<p>Order added successfully!</p>"
 
     OUTPUT.innerHTML = " Added to order: "  +  name  + "  has ordered,  " + item + " for  " + moneySpent 
+
+
+
+    if (moneySpent) < 150
 }
 
 
