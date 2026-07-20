@@ -24,7 +24,7 @@ function addItem() {
 
 
     if (moneySpent < 150) {
-        OUTPUT.innerHTML += "You don't have enough money";
+        OUTPUT.innerHTML += " You don't have enough money ";
     }
 }
 
