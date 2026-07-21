@@ -29,8 +29,8 @@ function addItem() {
     OUTPUT.innerHTML +=
     "<p>Order added successfully!</p>";
 
-    OUTPUT.innerHTML += " Added to order: "  +  name  + "  has ordered,  " + item + " for $"   + moneySpent + " ,";
-    OUTPUT.innerHTML += " Change: $" + (moneySpent - 150) ;
+    OUTPUT.innerHTML += " <p>Added to order: "  +  name  + "  has ordered,  " + item + " for $"   + moneySpent + " ,</p>";
+    OUTPUT.innerHTML += " <p>Change: $" + (moneySpent - 150) + "</p>";
 
 
     }
