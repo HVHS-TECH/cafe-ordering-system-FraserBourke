@@ -6,7 +6,7 @@ function start() {}
 
 
 
-
+// Function for the recipt
 
 function addItem() {
 
