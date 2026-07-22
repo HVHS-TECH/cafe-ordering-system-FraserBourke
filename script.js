@@ -3,7 +3,7 @@ console.log("Running Hello world!")
 const OUTPUT = document.getElementById("celebrity");
 function start() {}
 
-//variables
+
 
 
 
