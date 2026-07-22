@@ -21,13 +21,13 @@ function addItem() {
 
 
     if (moneySpent < 150) {
-        OUTPUT.innerHTML += " <p>You don't have enough money </p>";
+        OUTPUT.innerHTML += " <p>You don't have enough money :(</p>";
 
 
     } else {
         
     OUTPUT.innerHTML +=
-    "<p>Order added successfully!</p>";
+    "<p>Order has been added successfully!</p>";
 
     OUTPUT.innerHTML += " <p>Added to order: "  +  name  + "  has ordered,  " + item + " for $"   + moneySpent + " </p>";
     OUTPUT.innerHTML += " <p>Change: $" + (moneySpent - 150) + "</p>";
